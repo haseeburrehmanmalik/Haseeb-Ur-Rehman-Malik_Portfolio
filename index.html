@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ============ SEO ============ -->
+  <title>Haseeb Ur Rehman Malik | Web Developer</title>
+  <meta name="description"
+    content="Portfolio of Haseeb Ur Rehman Malik, a web developer interested in modern web development, Python, JavaScript and AI-assisted development." />
+  <meta name="author" content="Haseeb Ur Rehman Malik" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="keywords"
+    content="Haseeb Ur Rehman Malik, web developer portfolio, HTML, CSS, JavaScript, Python, responsive web design, AI-assisted development, Hyderabad Sindh Pakistan" />
+
+  <!-- ============ Open Graph / Social preview ============ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Haseeb Ur Rehman Malik | Web Developer" />
+  <meta property="og:description"
+    content="Portfolio of Haseeb Ur Rehman Malik, a web developer interested in modern web development, Python, JavaScript and AI-assisted development." />
+  <!-- ADD YOUR PREVIEW IMAGE HERE (1200x630) -->
+  <meta property="og:image" content="assets/images/og-preview.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Haseeb Ur Rehman Malik | Web Developer" />
+  <meta name="twitter:description"
+    content="Portfolio of Haseeb Ur Rehman Malik, a web developer interested in modern web development, Python, JavaScript and AI-assisted development." />
+  <meta name="twitter:image" content="assets/images/og-preview.jpg" />
+
+  <!-- Inline SVG favicon (no extra file needed) -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0f'/%3E%3Ctext x='32' y='45' font-family='Arial,Helvetica,sans-serif' font-size='36' font-weight='bold' fill='%2338bdf8' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Keeps content visible if JavaScript is disabled -->
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       HEADER / NAVIGATION
+       ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav__logo" aria-label="Haseeb Ur Rehman Malik — home">
+        <span>Haseeb </span><span style="color: white;">Ur Rehman</span><span> Malik.</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu"
+        aria-label="Open menu">
+        <span class="nav__toggle-bars" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+
+        <a class="btn btn--primary btn--sm nav__cv" data-cfg="cv" href="resume/Haseeb-Ur-Rehman-Malik-CV.pdf"
+          download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3v12" />
+            <path d="m7 11 5 5 5-5" />
+            <path d="M5 21h14" />
+          </svg>
+          Download CV
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <p class="eyebrow reveal">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            Open to internships &amp; junior roles
+          </p>
+
+          <h1 class="hero__title reveal" style="--delay:.05s">
+            Hi, I'm <span class="grad-text">Haseeb Ur Rehman Malik</span>
+          </h1>
+
+          <p class="hero__subtitle reveal" style="--delay:.1s">
+            Web Developer <span class="hero__sep" aria-hidden="true">|</span> Python &amp; AI Enthusiast
+          </p>
+
+          <p class="hero__text reveal" style="--delay:.15s">
+            I build modern, responsive and user-friendly websites using clean code, modern web
+            technologies and AI-assisted development.
+          </p>
+
+          <div class="hero__actions reveal" style="--delay:.2s">
+            <a class="btn btn--primary" href="#projects">
+              View My Projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m13 6 6 6-6 6" />
+              </svg>
+            </a>
+
+            <a class="btn btn--ghost" data-cfg="cv" href="resume/Haseeb-Ur-Rehman-Malik-CV.pdf" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12" />
+                <path d="m7 11 5 5 5-5" />
+                <path d="M5 21h14" />
+              </svg>
+              Download CV
+            </a>
+          </div>
+
+          <a class="link-arrow reveal" style="--delay:.25s" href="#contact">
+            Let's Connect
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m13 6 6 6-6 6" />
+            </svg>
+          </a>
+
+          <ul class="socials reveal" style="--delay:.3s">
+            <li>
+              <a data-cfg="linkedin" href="https://linkedin.com/in/haseeb-ur-rehman-malik-830226410" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9h3.56v11.45Z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a data-cfg="email" href="mailto:hasseburrahmanmalik@gmail.com" aria-label="Send an email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                  <path d="m3.5 7.5 8.5 6 8.5-6" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Decorative developer visual -->
+        <div class="hero__visual reveal" style="--delay:.2s" aria-hidden="true">
+          <div class="terminal">
+            <div class="terminal__bar">
+              <span class="terminal__dot"></span>
+              <span class="terminal__dot"></span>
+              <span class="terminal__dot"></span>
+              <span class="terminal__title">haseeb@portfolio — zsh</span>
+            </div>
+            <div class="terminal__body" id="terminalBody"></div>
+          </div>
+
+          <span class="badge badge--html">HTML5</span>
+          <span class="badge badge--css">CSS3</span>
+          <span class="badge badge--js">JavaScript</span>
+          <span class="badge badge--py">Python</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">01 — About</p>
+          <h2 class="section__title">About Me</h2>
+        </header>
+
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              My name is Haseeb Ur Rehman Malik. I am a web development enthusiast from Hyderabad,
+              Sindh, Pakistan. I enjoy building responsive websites and learning modern technologies.
+            </p>
+            <p>
+              I have learned HTML and CSS and am continuously improving my JavaScript skills. I am
+              also interested in Python web development and AI-assisted development.
+            </p>
+            <p>
+              I enjoy turning ideas into functional websites and experimenting with new
+              technologies.
+            </p>
+            <p>
+              My current goal is to gain practical experience through an internship or junior web
+              development opportunity.
+            </p>
+          </div>
+
+          <aside class="about__info reveal" style="--delay:.1s">
+            <h3 class="about__info-title">Quick Info</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-list__label">HTML &amp; CSS</span>
+                <span class="tag tag--comfortable">Strong</span>
+              </li>
+              <li>
+                <span class="info-list__label">JavaScript</span>
+                <span class="tag tag--learning">Learning</span>
+              </li>
+              <li>
+                <span class="info-list__label">Python</span>
+                <span class="tag tag--learning">Learning</span>
+              </li>
+              <li>
+                <span class="info-list__label">AI-Assisted Development</span>
+                <span class="tag tag--exploring">Interested</span>
+              </li>
+              <li>
+                <span class="info-list__label">Responsive Design</span>
+                <span class="tag tag--comfortable">Experience</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+         ============================================================ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">02 — Skills</p>
+          <h2 class="section__title">My Skills</h2>
+          <p class="section__subtitle">
+            An honest look at what I work with today and what I am currently learning.
+          </p>
+        </header>
+
+        <div class="skills__grid">
+
+          <!-- Frontend -->
+          <article class="skill-card reveal">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3.5" width="20" height="14" rx="2.5" />
+                <path d="M8 20.5h8M12 17.5v3" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Frontend</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">HTML5</span>
+                  <span class="tag tag--comfortable">Comfortable</span>
+                </div>
+                <p class="skill-list__desc">Semantic, accessible markup and clean page structure.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">CSS3</span>
+                  <span class="tag tag--comfortable">Comfortable</span>
+                </div>
+                <p class="skill-list__desc">Flexbox, Grid, responsive layouts and modern styling.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">JavaScript</span>
+                  <span class="tag tag--learning">Learning</span>
+                </div>
+                <p class="skill-list__desc">DOM manipulation, events and interactive interfaces.</p>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Programming -->
+          <article class="skill-card reveal" style="--delay:.08s">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="m8 6-5 6 5 6" />
+                <path d="m16 6 5 6-5 6" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Programming</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">JavaScript</span>
+                  <span class="tag tag--learning">Learning</span>
+                </div>
+                <p class="skill-list__desc">Core concepts, functions and problem solving.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">Python</span>
+                  <span class="tag tag--learning">Learning</span>
+                </div>
+                <p class="skill-list__desc">Fundamentals and exploring web development with Python.</p>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Web Development -->
+          <article class="skill-card reveal" style="--delay:.16s">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="6" rx="2" />
+                <rect x="3" y="14" width="18" height="6" rx="2" />
+                <path d="M7 7h.01M7 17h.01" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title">Web Development</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">Responsive Web Design</span>
+                  <span class="tag tag--comfortable">Comfortable</span>
+                </div>
+                <p class="skill-list__desc">Layouts that adapt cleanly to any screen size.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">UI Development</span>
+                  <span class="tag tag--comfortable">Comfortable</span>
+                </div>
+                <p class="skill-list__desc">Turning designs into structured, styled interfaces.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">Website Development</span>
+                  <span class="tag tag--comfortable">Comfortable</span>
+                </div>
+                <p class="skill-list__desc">Building complete multi-section websites from scratch.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">Form Handling</span>
+                  <span class="tag tag--learning">Learning</span>
+                </div>
+                <p class="skill-list__desc">Client-side validation and user-friendly form feedback.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">DOM Manipulation</span>
+                  <span class="tag tag--learning">Learning</span>
+                </div>
+                <p class="skill-list__desc">Selecting, updating and animating page elements.</p>
+              </li>
+            </ul>
+          </article>
+
+          <!-- AI & Modern Development -->
+          <article class="skill-card reveal" style="--delay:.24s">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="m12 3 1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9L12 3Z" />
+                <path d="M18.5 16.5 19.4 18.6 21.5 19.5l-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title">AI &amp; Modern Development</h3>
+            <ul class="skill-list">
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">AI-Assisted Coding</span>
+                  <span class="tag tag--exploring">Exploring</span>
+                </div>
+                <p class="skill-list__desc">Using AI tools to speed up work while understanding the code.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">AI Website Development</span>
+                  <span class="tag tag--exploring">Exploring</span>
+                </div>
+                <p class="skill-list__desc">Combining AI workflows with hand-written HTML, CSS and JS.</p>
+              </li>
+              <li>
+                <div class="skill-list__top">
+                  <span class="skill-list__name">Prompt-Based Development</span>
+                  <span class="tag tag--exploring">Exploring</span>
+                </div>
+                <p class="skill-list__desc">Writing clear prompts to plan and prototype features faster.</p>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">03 — Work</p>
+          <h2 class="section__title">Featured Projects</h2>
+          <p class="section__subtitle">
+            A selection of websites and practice work I have built while learning web development.
+          </p>
+        </header>
+
+        <div class="filters reveal" id="projectFilters" role="group" aria-label="Filter projects by category">
+          <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter" data-filter="web-development" aria-pressed="false">Web Development</button>
+          <button type="button" class="filter" data-filter="javascript" aria-pressed="false">JavaScript</button>
+          <button type="button" class="filter" data-filter="business" aria-pressed="false">Business Websites</button>
+          <button type="button" class="filter" data-filter="ecommerce" aria-pressed="false">E-Commerce</button>
+        </div>
+
+        <div class="projects__grid" id="projectsGrid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal" data-categories="web-development business">
+            <div class="project-card__media">
+              <span class="project-card__fallback" aria-hidden="true">HI</span>
+              <!-- ADD YOUR PROJECT IMAGE HERE -->
+              <img src="./H.I Lubricant.png" alt="Preview of the HI LUBRICANT business website"
+                width="1200" height="750" loading="lazy" decoding="async" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">HI LUBRICANT</h3>
+              <p class="project-card__desc">
+                A responsive business website created for HI LUBRICANT, a lubricant oil business.
+                The project focuses on a professional product presentation, responsive design and a
+                modern business-oriented interface.
+              </p>
+              <ul class="chips">
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+                <li class="chip">JavaScript</li>
+              </ul>
+              <div class="project-card__actions">
+                <!-- ADD YOUR LIVE PROJECT URL IN script.js -> CONFIG.projects.hiLubricant.live -->
+                <a class="btn btn--primary btn--sm" data-project="hiLubricant" href="#"
+                  aria-label="View the HI LUBRICANT project">
+                  View Project
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <path d="M15 3h6v6" />
+                    <path d="M10 14 21 3" />
+                  </svg>
+                </a>
+                <!-- GitHub button stays hidden until a real URL is added in script.js -->
+                <a class="btn btn--ghost btn--sm" data-github="hiLubricant" href="#" target="_blank"
+                  rel="noopener noreferrer" hidden>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" style="--delay:.08s" data-categories="web-development javascript ecommerce">
+            <div class="project-card__media">
+              <span class="project-card__fallback" aria-hidden="true">EC</span>
+              <!-- ADD YOUR PROJECT IMAGE HERE -->
+              <img src="./Resturant.png" alt="Preview of an e-commerce website project"
+                width="1200" height="750" loading="lazy" decoding="async" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">E-Commerce Website</h3>
+              <p class="project-card__desc">
+                An e-commerce website created as part of a web development competition. The project
+                focused on creating a functional and visually appealing shopping experience.
+              </p>
+              <ul class="chips">
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+                <li class="chip">JavaScript</li>
+              </ul>
+              <div class="project-card__actions">
+                <!-- ADD YOUR LIVE PROJECT URL IN script.js -> CONFIG.projects.ecommerce.live -->
+                <a class="btn btn--primary btn--sm" data-project="ecommerce" href="#"
+                  aria-label="View the E-Commerce Website project">
+                  View Project
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <path d="M15 3h6v6" />
+                    <path d="M10 14 21 3" />
+                  </svg>
+                </a>
+                <a class="btn btn--ghost btn--sm" data-github="ecommerce" href="#" target="_blank"
+                  rel="noopener noreferrer" hidden>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" style="--delay:.16s" data-categories="web-development javascript">
+            <div class="project-card__media">
+              <span class="project-card__fallback" aria-hidden="true">RW</span>
+              <!-- ADD YOUR PROJECT IMAGE HERE -->
+              <img src="./Clothing Store.png"
+                alt="Preview of a collection of responsive website layouts" width="1200" height="750" loading="lazy"
+                decoding="async" />
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Responsive Website Collection</h3>
+              <p class="project-card__desc">
+                A collection of responsive websites created while practicing modern web development,
+                responsive layouts and user interface design.
+              </p>
+              <ul class="chips">
+                <li class="chip">HTML</li>
+                <li class="chip">CSS</li>
+                <li class="chip">JavaScript</li>
+              </ul>
+              <div class="project-card__actions">
+                <!-- ADD YOUR LIVE PROJECT URL IN script.js -> CONFIG.projects.responsiveCollection.live -->
+                <a class="btn btn--primary btn--sm" data-project="responsiveCollection" href="#"
+                  aria-label="View the Responsive Website Collection project">
+                  View Project
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <path d="M15 3h6v6" />
+                    <path d="M10 14 21 3" />
+                  </svg>
+                </a>
+                <a class="btn btn--ghost btn--sm" data-github="responsiveCollection" href="#" target="_blank"
+                  rel="noopener noreferrer" hidden>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!--
+            TO ADD A NEW PROJECT:
+            Copy one <article class="project-card"> block above and update:
+            - data-categories  (web-development / javascript / business / ecommerce)
+            - the image src + alt
+            - the title, description and technology chips
+            - the data-project / data-github keys, then add them to CONFIG.projects in script.js
+          -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION + LEARNING JOURNEY
+         ============================================================ -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">04 — Background</p>
+          <h2 class="section__title">Education</h2>
+        </header>
+
+        <div class="edu__grid">
+          <article class="edu-card reveal">
+            <div class="edu-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" />
+              </svg>
+            </div>
+            <p class="edu-card__label">College</p>
+            <h3 class="edu-card__title">Pre-Engineering</h3>
+            <p class="edu-card__meta">Currently studying</p>
+            <p class="edu-card__meta edu-card__meta--muted">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Hyderabad, Sindh, Pakistan
+            </p>
+          </article>
+
+          <article class="edu-card reveal" style="--delay:.1s">
+            <div class="edu-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" />
+              </svg>
+            </div>
+            <p class="edu-card__label">Matriculation</p>
+            <h3 class="edu-card__title">Completed</h3>
+            <p class="edu-card__meta edu-card__meta--muted">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Hyderabad, Sindh, Pakistan
+            </p>
+          </article>
+        </div>
+
+        <h3 class="timeline__heading reveal">My Learning Journey</h3>
+
+                <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 01</p>
+              <h4 class="timeline__title">Started learning web development</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 02</p>
+              <h4 class="timeline__title">Learned HTML</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 03</p>
+              <h4 class="timeline__title">Learned CSS</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 04</p>
+              <h4 class="timeline__title">Started JavaScript</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 05</p>
+              <h4 class="timeline__title">Started exploring Python</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 06</p>
+              <h4 class="timeline__title">Started exploring AI-assisted development</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 07</p>
+              <h4 class="timeline__title">Building real-world projects</h4>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__content">
+              <p class="timeline__step">Step 08</p>
+              <h4 class="timeline__title">Looking for internship / junior opportunities</h4>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT I BRING
+         ============================================================ -->
+    <section class="section" id="bring">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">05 — Value</p>
+          <h2 class="section__title">What I Bring</h2>
+        </header>
+
+        <div class="bring__grid">
+          <article class="bring-card reveal">
+            <div class="bring-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v4M12 17v4M3 12h4M17 12h4" />
+                <circle cx="12" cy="12" r="3.5" />
+              </svg>
+            </div>
+            <h3 class="bring-card__title">Continuous Learning</h3>
+            <p class="bring-card__desc">
+              I continuously learn new technologies and improve my development skills.
+            </p>
+          </article>
+
+          <article class="bring-card reveal" style="--delay:.08s">
+            <div class="bring-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 18h6" />
+                <path d="M10 22h4" />
+                <path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z" />
+              </svg>
+            </div>
+            <h3 class="bring-card__title">Problem Solving</h3>
+            <p class="bring-card__desc">
+              I enjoy breaking problems into smaller pieces and finding practical solutions.
+            </p>
+          </article>
+
+          <article class="bring-card reveal" style="--delay:.16s">
+            <div class="bring-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="14" height="11" rx="2" />
+                <rect x="16.5" y="9" width="5.5" height="11" rx="1.8" />
+              </svg>
+            </div>
+            <h3 class="bring-card__title">Responsive Development</h3>
+            <p class="bring-card__desc">
+              I focus on creating websites that work well across desktop, tablet and mobile devices.
+            </p>
+          </article>
+
+          <article class="bring-card reveal" style="--delay:.24s">
+            <div class="bring-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m12 3 1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9L12 3Z" />
+                <path d="M18.5 16.5 19.4 18.6 21.5 19.5l-2.1.9-.9 2.1-.9-2.1-2.1-.9 2.1-.9.9-2.1Z" />
+              </svg>
+            </div>
+            <h3 class="bring-card__title">AI-Assisted Development</h3>
+            <p class="bring-card__desc">
+              I use modern AI tools to improve productivity, explore ideas and accelerate
+              development while understanding the code I use.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__eyebrow">06 — Contact</p>
+          <h2 class="section__title">Let's Work Together</h2>
+          <p class="section__subtitle">
+            I'm currently interested in internship and junior web development opportunities. If you
+            have an opportunity or would like to discuss a project, feel free to get in touch.
+          </p>
+        </header>
+
+        <div class="contact__grid">
+
+          <aside class="contact__info reveal">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-list__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                    <path d="m3.5 7.5 8.5 6 8.5-6" />
+                  </svg>
+                </span>
+                <span class="contact-list__body">
+                  <span class="contact-list__label">Email</span>
+                  <a data-cfg="email" href="mailto:hasseburrahmanmalik@gmail.com">hasseburrahmanmalik@gmail.com</a>
+                </span>
+              </li>
+
+              <li>
+                <span class="contact-list__icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path
+                      d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9h3.56v11.45Z" />
+                  </svg>
+                </span>
+                <span class="contact-list__body">
+                  <span class="contact-list__label">LinkedIn</span>
+                  <a data-cfg="linkedin" href="https://linkedin.com/in/haseeb-ur-rehman-malik-830226410"
+                    target="_blank" rel="noopener noreferrer">
+                    linkedin.com/in/haseeb-ur-rehman-malik-830226410
+                  </a>
+                </span>
+              </li>
+
+              <li>
+                <span class="contact-list__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </span>
+                <span class="contact-list__body">
+                  <span class="contact-list__label">Location</span>
+                  <span>Hyderabad, Sindh, Pakistan</span>
+                </span>
+              </li>
+            </ul>
+
+            <p class="contact__note">
+              Prefer email? Write to me directly — I usually reply within a day or two.
+            </p>
+          </aside>
+
+          <form class="contact-form reveal" id="contactForm" novalidate style="--delay:.1s">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name"
+                aria-describedby="nameError" required />
+              <p class="form-error" id="nameError" role="alert" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email"
+                placeholder="you@example.com" aria-describedby="emailError" required />
+              <p class="form-error" id="emailError" role="alert" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me a little about the opportunity…"
+                aria-describedby="messageError" required></textarea>
+              <p class="form-error" id="messageError" role="alert" hidden></p>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">
+              Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m4 4 16 8-16 8 3-8-3-8Z" />
+              </svg>
+            </button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+
+            <!-- ==========================================================
+                 NOTE: This form has no backend. On submit it opens the
+                 visitor's email client via mailto: with the message
+                 pre-filled. To send emails automatically later, connect
+                 a service (Formspree, EmailJS, Netlify Forms, your own
+                 backend) inside handleSubmit() in script.js.
+                 ========================================================== -->
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; 2026 Haseeb Ur Rehman Malik. All rights reserved.
+      </p>
+
+      <ul class="footer__links">
+        <li>
+          <a data-cfg="linkedin" href="https://linkedin.com/in/haseeb-ur-rehman-malik-830226410"
+            target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <a data-cfg="email" href="mailto:hasseburrahmanmalik@gmail.com">Email</a>
+        </li>
+      </ul>
+
+      <button type="button" class="back-to-top" id="backToTop">
+        Back to Top
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 19V5" />
+          <path d="m5 12 7-7 7 7" />
+        </svg>
+      </button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
